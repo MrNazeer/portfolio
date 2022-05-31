@@ -1,0 +1,18 @@
+@import "mixins.scss";
+
+%navbar {
+    nav {
+        @include flex(space-between, center);
+        height: 100px;
+        margin: 0px 10px;
+        .info {
+          @include flex(space-between, center);
+          margin: 0px 10px;
+          width: 220px;
+        }
+        .routes {
+          @include flex(space-between, center);
+          width: 250px;
+        }
+      }
+}
